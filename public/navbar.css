@@ -108,3 +108,46 @@ nav a:hover{
     margin-left:70px;
 
 }
+
+@media(max-width:1000px)
+{
+    .hide{
+        display:none;
+    }
+}
+@media(min-width:1000px)
+{
+    .hide1{
+        display:none;
+    }
+}
+@media(max-width:400)
+{
+    .hide{
+        width:100%;
+    }
+}
+@media(max-width:600)
+{
+    .hide{
+        display: none;
+    }
+}
+@media(max-width:768)
+{
+    .hide{
+        display: none;
+    }
+}
+@media(max-width:992)
+{
+    .hide{
+        display: none;
+    }
+}
+@media(max-width:1200)
+{
+    .hide{
+        display: none;
+    }
+}
