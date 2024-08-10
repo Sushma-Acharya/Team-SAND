@@ -33,3 +33,273 @@
     
  
 }
+
+/* -------------------------------- content 1 css ------------------------------------------------------*/
+
+   /* --------heading1----------*/
+   #breif1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+}
+
+.section1{
+    background-color: none;
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14);  
+    width:100%;
+    margin-top:10px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+   /* box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+   
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+
+
+}
+
+
+    /* content 1 buttons */
+
+    .buttons{
+        width:100%;
+   
+        display:flex;
+        justify-content: center;
+        gap:40px;
+        border: 0px solid black;
+
+    }
+.para1-button1{
+   
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color:black;
+    border:0.5px solid gray;
+    outline: none;
+    border-radius: 30px;
+     font-size: 20px;
+    font-weight: 600;
+
+    transition: 0.2s;
+    cursor:pointer;
+    
+}
+
+
+.para1-button2{
+   
+
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color:black;
+    border:0.5px solid gray;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+
+    transition: 0.2s;
+    cursor:pointer;
+}
+.para1-button3{
+  
+
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color:black;
+    border:0.5px solid gray;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+
+
+    transition: 0.2s;
+    cursor:pointer;
+    
+}
+
+.para1-button1:hover, .para1-button2:hover, .para1-button3:hover{
+    border:0px solid rgb(0, 0, 0);
+    box-shadow: 0px 02px 10px rgb(59, 60, 60);
+
+}
+.para1-button1:active, .para1-button2:active, .para1-button3:active{
+    color: rgb(226, 232, 223);
+    background-color:black;
+
+}
+.para1-button1:focus, .para1-button2:focus, .para1-button3:focus{
+    color: rgb(226, 232, 223);
+    background-color:black;
+    border:0px solid rgb(0, 0, 0);
+
+}
+
+
+
+/* ---------------------- */
+
+
+/*---block1----*/
+
+
+.content1{
+ 
+    width:100%;
+    height:auto;
+
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+  
+    border:0px solid black;
+
+}
+
+.image1{
+    background-color: rgb(226, 232, 223);
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14); 
+    width:85vh;
+    height: 75vh;
+    /*box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+    
+
+   transition: 0.3s;
+
+
+
+
+
+  
+
+
+}
+
+
+
+
+
+
+
+.content1-para{
+    background-color: transparent;
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14); 
+    width:auto;
+
+    height: auto;
+    /*box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+
+
+    
+   
+
+}
+.para1{
+    background-color: rgb(226, 232, 223);
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14); 
+    width:75vh;
+    height: 36vh;
+   /* box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+     
+    
+
+    transition: 0.3s;
+
+
+
+    
+ 
+
+}
+.para1 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+
+
+}
+.para1 p{
+    font-size: 30px;
+    text-align:left;
+    padding-left: 30px;
+    margin-top: 20px;
+
+
+ 
+
+}
+
+/*---block3----*/
+
+
+
+
+.para02{
+  
+    background-color: rgb(226, 232, 223);
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14); 
+    width:75vh;
+    height: 36vh;
+  /*  box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+    
+
+transition: 0.3s;
+
+}
+.para02 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+
+}
+.para02 p{
+
+    font-size: 30px;
+    text-align:left;
+    padding-left: 30px;
+    margin-top: 20px;
+ 
+
+}
+
+
+
+.para02:hover, .para1:hover, .image1:hover, .para02:active, .para1:active, .image1.active{
+    box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658);
+    
+}
+
+/*-----------------------------------content 1 css end------------------------------------------------------------*/
