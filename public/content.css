@@ -667,3 +667,138 @@ margin-top: 20px;
 
 /*---------------------------------------content 3 css end--------------------------------------------------------*/
 
+/*---------------------------------------content 4 css start--------------------------------------------------------*/
+
+/*---------------------------------block1-------------------------------*/
+
+
+
+
+
+
+
+
+
+.section4{
+    
+    background-color: none;
+    box-sizing: border-box; 
+    border:0px solid rgb(15, 14, 14);  
+    width:100%;
+    margin-top:10px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+ /*   box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+ 
+
+   
+
+}
+
+
+
+.content4{
+    
+    border: 0px solid black;
+    width:100%;
+    display: flex;
+    justify-content: center;
+   
+    gap:20px;
+    height:auto;
+
+    
+    
+}
+
+.image4-1
+{
+background-color: rgb(226, 232, 223);
+box-sizing: border-box; 
+border:0px solid rgb(15, 14, 14); 
+width:60vh;
+height: 70vh;
+/*box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+color: rgb(0, 0, 0);
+border-radius: 10px;
+
+
+
+transition: 0.3s;
+
+
+}
+
+/*
+.image4-1 img{
+height:100%;
+width:100%;
+border-radius: 10px;
+flex-shrink: 0;
+
+}
+*/
+
+.para4-1{
+background-color: rgb(226, 232, 223);
+box-sizing: border-box; 
+border:0px solid rgb(15, 14, 14); 
+width:60vh;
+height: 70vh;
+/*box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+color: rgb(0, 0, 0);
+border-radius: 10px;
+
+
+
+transition: 0.3s;
+
+
+
+
+
+}
+.para4-1 h1{
+text-align: center;
+text-transform: capitalize;
+font-size: 40px;
+}
+
+.para4-1 p{
+text-align: left;
+margin-left: 20px;
+margin-top: 10px;
+
+font-size: 18px;
+
+
+}
+
+
+.image4-2
+{
+background-color: rgb(226, 232, 223);
+box-sizing: border-box; 
+border:0px solid rgb(15, 14, 14); 
+width:60vh;
+height: 70vh;
+/*box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658); */
+color: rgb(0, 0, 0);
+border-radius: 10px;
+
+transition: 0.3s;
+
+
+
+}
+
+.para4-1:hover, .image4-1:hover, .image4-2:hover{
+
+    box-shadow:0px 0px 10px rgba(60, 60, 60, 0.658);
+}
+
+
+
+/*---------------------------------------content 4 css end--------------------------------------------------------*/
+
