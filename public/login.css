@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:5px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:80vh;
+    background: url('oo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 420px;
+    background:transparent;
+    border:1px solid rgb(255, 255, 255);
+    backdrop-filter:blur(1px) ;
+    box-shadow:5px 5px 10px rgb(14, 70, 79);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    backdrop-filter:blur(5px) ;
+
+}
+.wrapper:hover{
+    transition: 0.3s;
+   
+}
